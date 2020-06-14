@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:loginFlutterV1/src/bloc/authenticacion_event.dart';
-import 'package:loginFlutterV1/src/bloc/bloc.dart';
+import 'package:loginFlutterV1/src/bloc/authentication_bloc/authenticacion_event.dart';
+import 'package:loginFlutterV1/src/bloc/authentication_bloc/bloc.dart';
 import 'package:loginFlutterV1/src/repository/user_repository.dart';
 
 class AuthenticationBloc
