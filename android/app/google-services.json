@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1044968865561",
+    "firebase_url": "https://loginflutterv1.firebaseio.com",
+    "project_id": "loginflutterv1",
+    "storage_bucket": "loginflutterv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044968865561:android:2b620b9b98b59b9afb0f88",
+        "android_client_info": {
+          "package_name": "com.example.loginFlutterV1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044968865561-rjq2ceogu5erc8st8q2ks252e1blj27o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginFlutterV1",
+            "certificate_hash": "2e8adcc909419af1f5ae2a4e7f8c8c721dbd7620"
+          }
+        },
+        {
+          "client_id": "1044968865561-p9igojgpqvd7ja41bgg5pnr825fkq2u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd_1tpwYLlr5ivlvf4obInNpYfSmwRZ4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044968865561-p9igojgpqvd7ja41bgg5pnr825fkq2u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
