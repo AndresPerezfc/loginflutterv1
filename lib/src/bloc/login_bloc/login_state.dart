@@ -75,7 +75,7 @@ class LoginState {
         isFailure: isFailure ?? this.isFailure);
   }
 
-  loginUpdate({bool isEmailValid, bool isPasswordValid}) {
+  LoginState update({bool isEmailValid, bool isPasswordValid}) {
     return copyWith(
         isEmailValid: isEmailValid,
         isPasswordValid: isPasswordValid,
