@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loginFlutterV1/src/repository/user_repository.dart';
+import 'package:loginFlutterV1/src/ui/register/register_screen.dart';
 
 class CreateAccountButton extends StatelessWidget {
   final UserRepository _userRepository;
@@ -15,8 +16,9 @@ class CreateAccountButton extends StatelessWidget {
       child: Text('Create an Account'),
       onPressed: () {
         Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-          //return RegisterScreen(userRepository: _userRepository,);
-          return Container();
+          return RegisterScreen(
+            userRepository: _userRepository,
+          );
         }));
       },
     );

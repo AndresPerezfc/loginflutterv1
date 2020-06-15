@@ -5,7 +5,7 @@ import 'package:loginFlutterV1/src/bloc/authentication_bloc/bloc.dart';
 
 import 'package:loginFlutterV1/src/bloc/simple_bloc_delegate.dart';
 import 'package:loginFlutterV1/src/ui/home_screen.dart';
-import 'package:loginFlutterV1/src/ui/login_screen.dart';
+import 'package:loginFlutterV1/src/ui/login/login_screen.dart';
 import 'package:loginFlutterV1/src/ui/splash_screen.dart';
 
 void main() {

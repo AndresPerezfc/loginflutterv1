@@ -4,9 +4,9 @@ import 'package:loginFlutterV1/src/bloc/authentication_bloc/bloc.dart';
 import 'package:loginFlutterV1/src/bloc/login_bloc/bloc.dart';
 import 'package:loginFlutterV1/src/bloc/login_bloc/login_bloc.dart';
 import 'package:loginFlutterV1/src/repository/user_repository.dart';
-import 'package:loginFlutterV1/src/ui/create_account_button.dart';
-import 'package:loginFlutterV1/src/ui/google_login_button.dart';
-import 'package:loginFlutterV1/src/ui/login_button.dart';
+import 'package:loginFlutterV1/src/ui/login/create_account_button.dart';
+import 'package:loginFlutterV1/src/ui/login/google_login_button.dart';
+import 'package:loginFlutterV1/src/ui/login/login_button.dart';
 
 class LoginForm extends StatefulWidget {
   final UserRepository _userRepository;
